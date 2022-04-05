@@ -40,10 +40,16 @@
 .conteucoPrincipal-cursos{
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-between;
+    
 }
 
 .conteucoPrincipal-cursos-link{
     width:23%;
-    margin-bottom: 1%;
+    margin: 1%;
+}
+.conteucoPrincipal-cursos-link:nth-child(4n){
+    margin-right: 0;
+}
+.conteucoPrincipal-cursos-link:nth-child(4n+1){
+    margin-left: 0;
 }
