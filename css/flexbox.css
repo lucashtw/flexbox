@@ -37,20 +37,20 @@
     height: 250px;
 }
 
-.conteucoPrincipal-cursos{
+.conteudoPrincipal-cursos{
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     
 }
 
-.conteucoPrincipal-cursos-link{
+.conteudoPrincipal-cursos-link{
     width:23%;
     margin: 1%;
 }
-.conteucoPrincipal-cursos-link:nth-child(4n){
+.conteudoPrincipal-cursos-link:nth-child(4n){
     margin-right: 0;
 }
-.conteucoPrincipal-cursos-link:nth-child(4n+1){
+.conteudoPrincipal-cursos-link:nth-child(4n+1){
     margin-left: 0;
 }
 .videoSobre .container{
@@ -86,11 +86,11 @@
         text-align: center;
     }
 
-    .conteucoPrincipal-cursos{
+    .conteudoPrincipal-cursos{
         flex-wrap: column;
     }
 
-    .conteucoPrincipal-cursos-link{
+    .conteudoPrincipal-cursos-link{
         width:100%;
     }
     .rodapePrincipal-navMap-list{
